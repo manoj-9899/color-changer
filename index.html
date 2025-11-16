@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Random Background Color Changer</title>
+
+    <style>
+      body {
+        background-color: #212121;
+        color: #fff;
+        font-family: Arial, sans-serif;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+      }
+
+      h1 {
+        margin-bottom: 20px;
+        font-size: 24px;
+        text-align: center;
+        font-weight: 600;
+      }
+
+      button {
+        padding: 12px 24px;
+        margin: 10px;
+        font-size: 16px;
+        border: none;
+        border-radius: 6px;
+        cursor: pointer;
+        transition: 0.2s;
+      }
+
+      #start {
+        background: #4caf50;
+        color: #fff;
+      }
+
+      #start:hover {
+        background: #45a049;
+      }
+
+      #stop {
+        background: #f44336;
+        color: #fff;
+      }
+
+      #stop:hover {
+        background: #d7372c;
+      }
+
+      #colorDisplay {
+        margin-top: 25px;
+        font-size: 22px;
+        font-weight: 600;
+        padding: 10px 20px;
+        background: rgba(255, 255, 255, 0.1);
+        border-radius: 8px;
+        backdrop-filter: blur(5px);
+        letter-spacing: 1px;
+      }
+
+      #colorDisplay span {
+        font-weight: 700;
+        color: #00eaff;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Random Background Color Changer</h1>
+    <button id="start">Start</button>
+    <button id="stop">Stop</button>
+
+    <p id="colorDisplay">Current Color: <span>#212121</span></p>
+
+    <script src="script.js"></script>
+  </body>
+</html>
