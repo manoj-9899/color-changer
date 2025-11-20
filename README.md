@@ -25,4 +25,4 @@ Tech Stack
 
 Live Demo
 
-🔗 Add your GitHub Pages link here after deployment
+🔗https://manoj-9899.github.io/color-changer/
